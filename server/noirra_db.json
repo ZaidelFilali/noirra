@@ -1,0 +1,453 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "demo@noirra.nl",
+      "password": "demo123",
+      "name": "Sophie van den Berg",
+      "role": "b2c",
+      "language": "nl",
+      "theme": "dark",
+      "points": 340,
+      "badges": [
+        "Chocoladeliefhebber",
+        "Vroege Vogel",
+        "Trouwe Klant"
+      ],
+      "loyaltyLevel": "Gold",
+      "notificationPrefs": {
+        "productupdates": true,
+        "promoties": true,
+        "duurzaamheid": true,
+        "community": false,
+        "evenementen": true
+      },
+      "twoFAEnabled": true
+    },
+    {
+      "id": 2,
+      "email": "b2b@noirra.nl",
+      "password": "b2b123",
+      "name": "Pieter Janssen",
+      "role": "b2b",
+      "language": "nl",
+      "theme": "dark",
+      "points": 1850,
+      "badges": [
+        "Zakelijke Partner",
+        "Platinum Member",
+        "Bulk Buyer"
+      ],
+      "loyaltyLevel": "Platinum",
+      "notificationPrefs": {
+        "productupdates": true,
+        "promoties": false,
+        "duurzaamheid": true,
+        "community": false,
+        "evenementen": true
+      },
+      "twoFAEnabled": true
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Dark 70% Single Origin",
+      "batch": "NR-2024-DRK-001",
+      "code": "NR-D70",
+      "type": "puur",
+      "cacaoPercentage": 70,
+      "origin": "Ecuador",
+      "originFlag": "🇪🇨",
+      "weight": 100,
+      "price": 6.95,
+      "certifications": [
+        "Fairtrade",
+        "Rainforest Alliance"
+      ],
+      "allergens": [
+        "Melk",
+        "Soja"
+      ],
+      "ingredients": "Cacaomassa, suiker, cacaoboter, vanille-extract. Kan sporen bevatten van noten, gluten en melk.",
+      "description": "Een intense puurde chocolade met 70% cacao uit de groene hooglanden van Ecuador. Robuuste geroosterde cacaotonen met een vleugje gedroogd fruit en een lange, schone afdronk.",
+      "expiryMonths": 18,
+      "inStock": true,
+      "stockLevel": 142,
+      "color": "#5C2810"
+    },
+    {
+      "id": 2,
+      "name": "Dark 85% Extreme",
+      "batch": "NR-2024-DRK-002",
+      "code": "NR-D85",
+      "type": "puur",
+      "cacaoPercentage": 85,
+      "origin": "Madagascar",
+      "originFlag": "🇲🇬",
+      "weight": 100,
+      "price": 7.95,
+      "certifications": [
+        "Fairtrade",
+        "Biologisch"
+      ],
+      "allergens": [
+        "Soja"
+      ],
+      "ingredients": "Cacaomassa (85%), suiker, cacaoboter. Kan sporen bevatten van melk, noten en gluten.",
+      "description": "Puur cacaointensiteit op haar hoogtepunt. Auster, complex en oncompromiserend — gemaakt voor de toegewijde chocoladeliefhebber met een diepte die uitdaagt en beloont.",
+      "expiryMonths": 24,
+      "inStock": true,
+      "stockLevel": 87,
+      "color": "#2E1206"
+    },
+    {
+      "id": 3,
+      "name": "Milk Hazelnut Praline",
+      "batch": "NR-2024-MLK-001",
+      "code": "NR-MH",
+      "type": "melk",
+      "cacaoPercentage": 38,
+      "origin": "België",
+      "originFlag": "🇧🇪",
+      "weight": 120,
+      "price": 5.95,
+      "certifications": [
+        "Rainforest Alliance"
+      ],
+      "allergens": [
+        "Melk",
+        "Hazelnoten",
+        "Soja",
+        "Gluten"
+      ],
+      "ingredients": "Suiker, cacaoboter, hazelnootpasta (12%), cacaomassa, magere melkpoeder, vol melkpoeder, vanilline, lecithine (soja).",
+      "description": "Fluweelzacht met warme gouden karamel, een subtiele zoetheid en een geroosterde hazelnootnamaak. De ultieme comfortchocolade die telkens weer verrast met zijn zachte complexiteit.",
+      "expiryMonths": 12,
+      "inStock": true,
+      "stockLevel": 215,
+      "color": "#9A6038"
+    },
+    {
+      "id": 4,
+      "name": "Ruby Rose Infusion",
+      "batch": "NR-2024-RBY-001",
+      "code": "NR-RR",
+      "type": "ruby",
+      "cacaoPercentage": 47,
+      "origin": "Brazilië",
+      "originFlag": "🇧🇷",
+      "weight": 80,
+      "price": 9.95,
+      "certifications": [
+        "Fairtrade"
+      ],
+      "allergens": [
+        "Melk",
+        "Soja"
+      ],
+      "ingredients": "Ruby cacaoboter, suiker, magere melkpoeder, cacaomassa, rozenwater, citroenzuur, lecithine (soja).",
+      "description": "Natuurlijk roze met een verrassende bessen-complexiteit en een delicate bloemige afdronk. Uniek van zijn soort — ruby cacao bestaat slechts 0,1% van alle cacaoteelt wereldwijd.",
+      "expiryMonths": 15,
+      "inStock": true,
+      "stockLevel": 53,
+      "color": "#822038"
+    },
+    {
+      "id": 5,
+      "name": "White Truffle Luxury",
+      "batch": "NR-2024-WHT-001",
+      "code": "NR-WT",
+      "type": "wit",
+      "cacaoPercentage": 0,
+      "origin": "Italië",
+      "originFlag": "🇮🇹",
+      "weight": 90,
+      "price": 12.95,
+      "certifications": [
+        "Biologisch"
+      ],
+      "allergens": [
+        "Melk",
+        "Soja",
+        "Gluten"
+      ],
+      "ingredients": "Suiker, cacaoboter, vol melkpoeder, witte truffelaroma (0.3%), lecithine (soja), vanille-extract.",
+      "description": "Wit chocolade met een subtiel aroma van witte truffel uit Italië. Een luxueuze ervaring waarbij de aardse tonen van truffel harmonieus samensmelten met de romige zoetheid van premium cacaoboter.",
+      "expiryMonths": 12,
+      "inStock": false,
+      "stockLevel": 0,
+      "color": "#F5E6C8"
+    }
+  ],
+  "registeredProducts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "productId": 1,
+      "registeredAt": "2024-11-15T10:30:00.000Z",
+      "expiresAt": "2026-05-15T10:30:00.000Z",
+      "purchaseDate": "2024-11-10T00:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "productId": 3,
+      "registeredAt": "2024-12-01T14:00:00.000Z",
+      "expiresAt": "2025-12-01T14:00:00.000Z",
+      "purchaseDate": "2024-11-28T00:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "productId": 2,
+      "registeredAt": "2024-10-20T09:00:00.000Z",
+      "expiresAt": "2026-10-20T09:00:00.000Z",
+      "purchaseDate": "2024-10-18T00:00:00.000Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": 1,
+      "userId": 1,
+      "type": "product",
+      "title": "Nieuw batch beschikbaar",
+      "message": "Dark 70% Single Origin batch NR-2024-DRK-002 is nu beschikbaar. Bestel nu voor vroegboekkorting.",
+      "read": true,
+      "createdAt": "2026-05-28T08:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "type": "promo",
+      "title": "Exclusieve aanbieding voor Gold Members",
+      "message": "Als Gold Member ontvangt u 20% korting op alle Ruby producten deze week. Gebruik code GOLD20.",
+      "read": false,
+      "createdAt": "2026-05-27T12:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "type": "sustainability",
+      "title": "Duurzaamheidsrapport 2024",
+      "message": "Ons jaarlijkse duurzaamheidsrapport is gepubliceerd. Lees hoe wij bijdragen aan een betere cacaoketen.",
+      "read": true,
+      "createdAt": "2026-05-25T10:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "type": "system",
+      "title": "App update beschikbaar",
+      "message": "Noirra app versie 2.1 bevat verbeteringen voor de productregistratie en nieuwe community functies.",
+      "read": true,
+      "createdAt": "2026-05-20T09:00:00.000Z"
+    },
+    {
+      "id": 5,
+      "userId": 2,
+      "type": "product",
+      "title": "Voorraad bijna op",
+      "message": "Ruby Rose Infusion heeft nog slechts 53 eenheden op voorraad. Bestel tijdig om uw leveringen veilig te stellen.",
+      "read": false,
+      "createdAt": "2026-05-29T07:00:00.000Z"
+    }
+  ],
+  "complaints": [
+    {
+      "id": 1,
+      "userId": 1,
+      "productId": 3,
+      "type": "Smeltschade",
+      "description": "De chocolade was gesmolten bij aankomst. De verpakking zag er beschadigd uit door warmte tijdens transport.",
+      "status": "in_behandeling",
+      "timeline": [
+        {
+          "status": "open",
+          "message": "Klacht ingediend",
+          "timestamp": "2026-05-20T10:00:00.000Z"
+        },
+        {
+          "status": "in_behandeling",
+          "message": "Klacht in behandeling genomen door klantenservice",
+          "timestamp": "2026-05-21T09:30:00.000Z"
+        }
+      ],
+      "createdAt": "2026-05-20T10:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "productId": 1,
+      "type": "Smaakafwijking",
+      "description": "De chocolade had een bittere nasmaak die niet overeenkomt met de beschrijving.",
+      "status": "opgelost",
+      "timeline": [
+        {
+          "status": "open",
+          "message": "Klacht ingediend",
+          "timestamp": "2026-04-10T11:00:00.000Z"
+        },
+        {
+          "status": "in_behandeling",
+          "message": "Kwaliteitscontrole gestart",
+          "timestamp": "2026-04-11T10:00:00.000Z"
+        },
+        {
+          "status": "opgelost",
+          "message": "Vervangend product verzonden. Onze excuses voor het ongemak.",
+          "timestamp": "2026-04-13T14:00:00.000Z"
+        }
+      ],
+      "createdAt": "2026-04-10T11:00:00.000Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "userId": 1,
+      "items": [
+        {
+          "productId": 1,
+          "quantity": 2,
+          "price": 6.95
+        },
+        {
+          "productId": 4,
+          "quantity": 1,
+          "price": 9.95
+        }
+      ],
+      "status": "Bezorgd",
+      "totalPrice": 23.85,
+      "createdAt": "2026-05-01T14:00:00.000Z",
+      "deliveryDate": "2026-05-04T12:00:00.000Z"
+    }
+  ],
+  "communityPosts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "userName": "Sophie van den Berg",
+      "content": "Zojuist de Ruby Rose geprobeerd — absoluut verbluffend! De bessen-tonen zijn zo uniek. Heeft iemand tips voor recepten met ruby chocolade?",
+      "likes": 12,
+      "likedBy": [],
+      "comments": [
+        {
+          "userId": 2,
+          "userName": "Pieter Janssen",
+          "content": "Probeer ruby chocolade mousse! Geweldig resultaat.",
+          "createdAt": "2026-05-28T11:00:00.000Z"
+        }
+      ],
+      "badge": "Chocoladeliefhebber",
+      "createdAt": "2026-05-28T09:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "userName": "Pieter Janssen",
+      "content": "Tip voor zakelijke klanten: de Dark 85% is ideaal voor patisserie. Wij gebruiken het in onze luxe bonbons en klanten zijn weg van de intensiteit!",
+      "likes": 8,
+      "likedBy": [],
+      "comments": [],
+      "badge": "Zakelijke Partner",
+      "createdAt": "2026-05-27T15:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "userName": "Sophie van den Berg",
+      "content": "Receptchallenge inzending: Noirra Dark 70% fondant met frambozencompote. Het geheim zit in de temperatuur — chocolade op exact 32°C tempers voor die perfecte glans!",
+      "likes": 24,
+      "likedBy": [],
+      "comments": [],
+      "badge": "Vroege Vogel",
+      "createdAt": "2026-05-26T18:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "userId": 2,
+      "userName": "Pieter Janssen",
+      "content": "Noirra heeft zojuist hun duurzaamheidsrapport gepubliceerd. Trots om partner te zijn van een merk dat echt investeert in de cacaoboer. Fair trade is meer dan een logo.",
+      "likes": 31,
+      "likedBy": [],
+      "comments": [],
+      "badge": "Platinum Member",
+      "createdAt": "2026-05-25T10:00:00.000Z"
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "title": "Chocolade Proeverij Avond",
+      "type": "proeverij",
+      "date": "2026-06-15T19:00:00.000Z",
+      "location": "Noirra Studio Amsterdam",
+      "spotsLeft": 8,
+      "price": 35,
+      "description": "Ontdek de wereld van premium chocolade in een intieme proeverij. U proeft 6 verschillende Noirra creaties begeleid door onze chocolatier.",
+      "registered": []
+    },
+    {
+      "id": 2,
+      "title": "Fabriekrondleiding & Workshop",
+      "type": "rondleiding",
+      "date": "2026-06-28T10:00:00.000Z",
+      "location": "Noirra Atelier Utrecht",
+      "spotsLeft": 15,
+      "price": 0,
+      "description": "Kom achter de schermen bij Noirra. Ontdek hoe onze chocolade van cacaoboon tot reep wordt gemaakt en maak zelf een persoonlijke reep.",
+      "registered": []
+    },
+    {
+      "id": 3,
+      "title": "Bonbon Maken Masterclass",
+      "type": "workshop",
+      "date": "2026-07-10T14:00:00.000Z",
+      "location": "Noirra Studio Rotterdam",
+      "spotsLeft": 6,
+      "price": 65,
+      "description": "Leer de kunst van het bonbon maken van onze master chocolatier. U gaat naar huis met uw eigen box van 12 handgemaakte bonbons.",
+      "registered": []
+    }
+  ],
+  "stores": [
+    {
+      "id": 1,
+      "name": "Noirra Studio Amsterdam",
+      "address": "Keizersgracht 412",
+      "city": "Amsterdam",
+      "distance": "0.8 km",
+      "openNow": true,
+      "hours": "Ma–Za 10:00–19:00, Zo 12:00–17:00"
+    },
+    {
+      "id": 2,
+      "name": "Noirra Atelier Utrecht",
+      "address": "Oudegracht 150",
+      "city": "Utrecht",
+      "distance": "38 km",
+      "openNow": true,
+      "hours": "Di–Za 11:00–18:00"
+    },
+    {
+      "id": 3,
+      "name": "Noirra Boutique Rotterdam",
+      "address": "Witte de Withstraat 88",
+      "city": "Rotterdam",
+      "distance": "75 km",
+      "openNow": false,
+      "hours": "Ma–Za 10:00–20:00"
+    },
+    {
+      "id": 4,
+      "name": "Noirra Den Haag",
+      "address": "Denneweg 42",
+      "city": "Den Haag",
+      "distance": "60 km",
+      "openNow": true,
+      "hours": "Ma–Vr 9:00–18:00, Za 10:00–17:00"
+    }
+  ]
+}
